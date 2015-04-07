@@ -1,0 +1,116 @@
+.icon-close {
+	z-index: 100;
+	display: block;
+	overflow: hidden;
+	width: 3em;
+	height: 3em;
+	text-align: center;
+	line-height: 3;
+	cursor: pointer;
+}
+.icon-close2 {
+	z-index: 100;
+	display: block;
+	overflow: hidden;
+	width: 3em;
+	height: 3em;
+	text-align: center;
+	line-height: 3;
+	cursor: pointer;
+}
+
+.icon:before {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon2:before {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close::before {
+	content: "X";
+}
+.icon-close2::before {
+	content: "X";
+}
+.icon-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.icon-close2 {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.icon-close:hover {
+	color: #a50a05;
+}
+.icon-close2:hover {
+	color: #a50a05;
+}
+
+
+/* Style for text modal */
+.content-style-text {
+	padding: 40px;
+	text-align: left;
+}
+
+.content-style-text .icon-close {
+	top: 0;
+	right: 0;
+	color: rgba(0,0,0,0.2);
+}
+.content-style-text .icon-close2 {
+	top: 0;
+	right: 0;
+	color: rgba(0,0,0,0.2);
+}
+
+.content-style-text .icon-close:hover {
+	color: #f9e1c9;
+}
+.content-style-text .icon-close2:hover {
+	color: #f9e1c9;
+}
+
+
+
+@media screen and (max-width: 770px) {
+	.content-style-overlay {
+		font-size: 75%;
+	}
+
+	.content-style-overlay .icon-close {
+		top: 5px;
+		right: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
